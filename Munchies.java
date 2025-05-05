@@ -29,9 +29,9 @@ public class Munchies {
 
 
 
-	public static boolean leapYear(int year) {
+	public static boolean leapYear(int numberOfYears) {
 	
-		return year % 4 == 0;
+		return numberOfYears % 4 == 0;
 	
 
 	}
